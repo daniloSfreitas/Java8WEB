@@ -2,9 +2,12 @@ package unidade3.sisalucar;
 
 public class Carro {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
+	long idCarro;
+	String placa;
+	String fabricante;
+	String modelo;
+	int ano;
+	String cor;
+	float valorDiaria;
+	
 }
