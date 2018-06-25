@@ -1,6 +1,6 @@
 package unidade4.sisalucar;
 
-public class Carro {
+public class Carro extends Veiculo{
 
 	private long idCarro;
 	private String placa;
@@ -100,7 +100,15 @@ public class Carro {
 	public static void main(String[ ] args) {
 	  
 		Carro carro1 = new Carro(1,"ABC-2001","volks","gol",2013,"azul",99.90f,Revendedor.ABCVEICULOS);
+		Carro carro2 = new Carro();
 		
+		carro1.acelera();
+		carro1.freita();
+		carro1.getPassagueiro();
+		carro1.getVelocidade();
+		
+		carro1.autonomia = 40;
+	
 	
 	}
 }

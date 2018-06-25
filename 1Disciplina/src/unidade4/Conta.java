@@ -7,7 +7,7 @@ public class Conta {
     private int numero;
     private double saldo;
     private double limite;
-    private String nome;
+    private Cliente cliente[];
 	
 	public boolean saca(double valor){
 		if (valor <= saldo){
@@ -59,13 +59,11 @@ public class Conta {
 		this.limite = limite;
 	}
 
-	public String getNome() {
-		return nome;
+	public static void main(String[] args) {
+		Conta conta = new Conta();
+		conta.cliente = new Cliente[5];
 	}
 
-	public void setNome(String nome) {
-		this.nome = nome;
-	}
 	
 
 }
