@@ -97,6 +97,21 @@ public class Carro extends Veiculo{
 		
 	}
 	
+public int getPassageiros(){
+		
+		return 4;
+	}
+	public void acelera(int limiteVelocidade)
+	{
+		System.out.println("Obedeça o limite de Velocidae que é: "+limiteVelocidade);
+	}
+	
+	public void abastecer(int quantidadeLitros){
+		
+		System.out.println("Para abastecer o carro é necessário "+quantidadeLitros);
+	}
+
+	
 	public static void main(String[ ] args) {
 	  
 		Carro carro1 = new Carro(1,"ABC-2001","volks","gol",2013,"azul",99.90f,Revendedor.ABCVEICULOS);

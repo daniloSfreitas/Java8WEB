@@ -5,7 +5,7 @@ import javax.swing.SingleSelectionModel;
 public class Conta {
 	
     private int numero;
-    private double saldo;
+    protected double saldo;
     private double limite;
     private Cliente cliente[];
 	
@@ -33,6 +33,11 @@ public class Conta {
 		else 
 			System.out.println("Nao foi possival realizar a transferencia");
 		
+	}
+	
+	public void atualiza(double taxa){
+		
+		this.saldo = this.saldo + this.saldo*taxa;
 	}
 
 	public int getNumero() {
