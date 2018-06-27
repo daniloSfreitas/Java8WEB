@@ -1,7 +1,5 @@
 package unidade4;
 
-import javax.swing.SingleSelectionModel;
-
 public class Conta {
 	
     private int numero;
