@@ -2,16 +2,16 @@ package unidade4;
 
 import javax.swing.SingleSelectionModel;
 
-public class Funcionario {
+public abstract class Funcionario {
 	
 	public static void main(String[] args) {
 		
-		Funcionario jose = new Funcionario();
-		Funcionario antonio = new Professor();
-	    Funcionario andrea = new Administrativo();
-	    Funcionario pedro = new Diretor();
-	    pedro.verificarTipoFuncionario(pedro);
+		
+	    
 	}
+	
+	
+	public abstract void getBonificacao();
 	
 	void verificarTipoFuncionario(Funcionario objeto){
 		
