@@ -6,7 +6,13 @@ public abstract class Funcionario {
 	
 	public static void main(String[] args) {
 		
+		Professor prof = new Professor();
 		
+		Autenticavel aut = prof;
+		
+		Cidadao cidadao = prof;
+		
+		Contribuinte contribuinte = prof;
 	    
 	}
 	
