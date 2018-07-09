@@ -9,7 +9,7 @@ public class TesteExcecao {
 		int i = 50;
 		//i = i / 0;
 		System.out.println(i);
-		//Object c = null;		
+		Object c = null;		
 		System.out.println("O resultado " + c.toString());
 		}
 		catch ( ArithmeticException | NullPointerException e){
