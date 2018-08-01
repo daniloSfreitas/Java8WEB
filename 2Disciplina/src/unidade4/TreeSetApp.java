@@ -1,13 +1,13 @@
 package unidade4;
 
 
-import java.util.LinkedHashSet;
+import java.util.TreeSet;
 
 public class TreeSetApp {
 
 	public static void main(String[] args) {
 	
-		LinkedHashSet<String> lista = new LinkedHashSet<>();
+		TreeSet<String> lista = new TreeSet<>();
 		lista.add("Vermelho");
 		lista.add("Verde");
 		lista.add("Verde");
