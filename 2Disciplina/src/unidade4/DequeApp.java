@@ -21,6 +21,8 @@ public class DequeApp {
         lista.addFirst("Azul");
         lista.addLast("Preto");
         
+        System.out.println(lista);
+        
         System.out.println(lista.peekFirst());
         System.out.println(lista.peekLast());
         
