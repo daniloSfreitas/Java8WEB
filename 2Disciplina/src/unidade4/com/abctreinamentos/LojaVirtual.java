@@ -38,7 +38,7 @@ public class LojaVirtual {
 		}
 		entrada.close();
 		pagamentos.put(danilo, cursodanilo);
-		System.out.println(pagamentos);
+		System.out.println(pagamentos );
 	}
 
 }
