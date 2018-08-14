@@ -10,10 +10,10 @@ public class ListaNomes {
 
 		List<String> names = Arrays.asList("peter", "anna", "mike","xenia");
 		
-		Collections.sort(names, (a, b)-> b.compareTo(a));
+		Collections.sort(names, (a, b)-> a.compareTo(b));
 		
 		for(String name : names)
-			System.out.println(names);
+			System.out.println(name);
 		
 	}
 

@@ -6,7 +6,9 @@ public class Local {
 		
 		Converter<Integer, String> stringConverter = (from)-> String.valueOf(from + num);
 		
-		stringConverter.convert(2);
+		
+		
+		System.out.println(stringConverter.convert(3));
 	}
 
 }
