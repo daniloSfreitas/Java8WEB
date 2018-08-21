@@ -11,7 +11,7 @@ public class CheckApp {
 
 	public static void main(String[] args) {
 		JFrame frame = new JFrame("Aplicação");
-        frame.setSize(350, 250);
+        frame.setSize(350, 50);
         Container cont = frame.getContentPane();
         cont.setLayout(new FlowLayout());
         cont.add(new JCheckBox("1-SIM"));
